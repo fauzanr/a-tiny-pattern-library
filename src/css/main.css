@@ -1,7 +1,7 @@
 @layer reset, global, compositions, components, utilites;
 
 @import "./reset.css" layer(reset);
-
+@import "./custom.css" layer(global);
 @import "./design-tokens.typography.font-family.css" layer(global);
 @import "./design-tokens.typography.font-sizes.css" layer(global);
 @import "./design-tokens.spacing.css" layer(global);
