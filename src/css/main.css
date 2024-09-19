@@ -2,6 +2,7 @@
 
 @import "./reset.css" layer(reset);
 @import "./custom.css" layer(global);
+@import "./card" layer(global);
 @import "./page.css" layer(global);
 @import "./design-tokens.typography.font-family.css" layer(global);
 @import "./design-tokens.typography.font-sizes.css" layer(global);
