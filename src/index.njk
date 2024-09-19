@@ -4,28 +4,30 @@ layout: layouts/base.njk
 ---
 
 <main id="main" class="[ main ][ page ]" tabindex="-1" aria-live="polite">
+  <h3 style="color: lightgray; text-align: center; min-width: 100%">*insert header here*</h3>
+  <div class="spacer-l"></div>
   <section>
     <h3>Popular Now</h3>
     <div class="spacer-xs"></div>
-    <div class="movie-card"></div>
+    {% include './components/card-image.njk' %}
     <div class="horizontal-scroll">
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
       </div>
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
       </div>
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
       </div>
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
       </div>
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
       </div>
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
       </div>
     </div>
   </section>
@@ -33,13 +35,16 @@ layout: layouts/base.njk
   <section>
     <h3>Recommended For You</h3>
     <div class="spacer-xs"></div>
-    <div class="movie-card"></div>
+    {% include './components/card-image.njk' %}
     <div class="horizontal-scroll">
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
       </div>
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
+      </div>
+      <div class="horizontal-scroll__item">
+        {% include './components/card-image.njk' %}
       </div>
     </div>
   </section>
@@ -47,13 +52,22 @@ layout: layouts/base.njk
   <section>
     <h3>History</h3>
     <div class="spacer-xs"></div>
-    <div class="movie-card"></div>
+    {% include './components/card-image.njk' %}
     <div class="horizontal-scroll">
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
       </div>
       <div class="horizontal-scroll__item">
-        <div class="movie-card"></div>
+        {% include './components/card-image.njk' %}
+      </div>
+      <div class="horizontal-scroll__item">
+        {% include './components/card-image.njk' %}
+      </div>
+      <div class="horizontal-scroll__item">
+        {% include './components/card-image.njk' %}
+      </div>
+      <div class="horizontal-scroll__item">
+        {% include './components/card-image.njk' %}
       </div>
     </div>
   </section>

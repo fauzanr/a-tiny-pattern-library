@@ -4,27 +4,36 @@
   border-radius: 10px;
   border: 1px solid var(--color-neutral-200);
 }
+
 .card .img {
   min-height: 200px;
   background-color: var(--color-neutral-200);
 }
+
 .card .description {
   padding: 10px;
 }
+
 .card .description .title {
-  font-size: var(--step-2);
+  font-size: var(--step-0);
   font-weight: 700;
 }
+
 .card .description .sub {
   display: flex;
   justify-content: space-between;
+  font-size: var(--step--1);
 }
 
 .card-image {
   background-image: url("./bg/shawsank 1.png");
-  aspect-ratio: 290/200;
+  /* aspect-ratio: 290/200; */
+  cursor: pointer;
+  height: 300px;
+  min-width: 200px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: white;
   display: flex;
   flex-direction: column;

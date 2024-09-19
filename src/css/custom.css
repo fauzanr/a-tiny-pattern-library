@@ -37,19 +37,23 @@
   gap: 0.5rem;
 }
 
+.horizontal-scroll .card-image {
+  height: 200px;
+}
+
 .horizontal-scroll .horizontal-scroll__item {
   scroll-snap-align: start;
-  flex: 0 0 calc(50% - 0.25rem);
+  flex: 0 0 calc(50% - 0.25rem - 1rem);
 }
 
 @media (min-width: 720px) {
   .horizontal-scroll .horizontal-scroll__item {
-    flex: 0 0 calc(33.33% - 0.35rem);
+    flex: 0 0 calc(33.33% - 0.35rem - 1rem);
   }
 }
 
 @media (min-width: 1024px) {
   .horizontal-scroll .horizontal-scroll__item {
-    flex: 0 0 calc(25% - 0.4rem);
+    flex: 0 0 calc(25% - 0.4rem - 1rem);
   }
 }
