@@ -2,6 +2,7 @@
 
 @import "./reset.css" layer(reset);
 @import "./custom.css" layer(global);
+@import "./page.css" layer(global);
 @import "./design-tokens.typography.font-family.css" layer(global);
 @import "./design-tokens.typography.font-sizes.css" layer(global);
 @import "./design-tokens.spacing.css" layer(global);
@@ -18,6 +19,7 @@
 
 @import "./compositions/flow.css" layer(compositions);
 @import "./compositions/grid.css" layer(compositions);
+@import "./compositions/utility.css" layer(compositions);
 
 @import "./components/doc-section.css" layer(compositions);
 @import "./components/doc-swatch.css" layer(compositions);

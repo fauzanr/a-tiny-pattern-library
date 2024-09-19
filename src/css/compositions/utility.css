@@ -1,0 +1,35 @@
+.spacer-3xs {
+  margin-bottom: var(--space-3xs);
+}
+
+.spacer-2xs {
+  margin-bottom: var(--space-2xs);
+}
+
+.spacer-xs {
+  margin-bottom: var(--space-xs);
+}
+
+.spacer-s {
+  margin-bottom: var(--space-s);
+}
+
+.spacer-m {
+  margin-bottom: var(--space-m);
+}
+
+.spacer-l {
+  margin-bottom: var(--space-l);
+}
+
+.spacer-xl {
+  margin-bottom: var(--space-xl);
+}
+
+.spacer-2xl {
+  margin-bottom: var(--space-2xl);
+}
+
+.spacer-3xl {
+  margin-bottom: var(--space-3xl);
+}

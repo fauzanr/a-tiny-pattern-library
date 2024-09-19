@@ -26,7 +26,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
 
   return {
-    dir: { input: INPUT_DIR, output: OUTPUT_DIR },
+    dir: { input: INPUT_DIR, output: OUTPUT_DIR, includes: "_includes" },
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
   };

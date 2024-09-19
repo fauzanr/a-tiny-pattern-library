@@ -1,8 +1,41 @@
 .btn {
-  background: none;
+  background: var(--color-emerald-600);
   border: none;
   outline: 0;
   cursor: pointer;
   border: 1px solid var(--color-emerald-600);
-  color: var(--color-emerald-600)
+  color: var(--color-emerald-50);
+  border-radius: 1rem;
+  padding: var(--space-2xs);
+  transition: ease-in-out color 200ms;
+}
+
+.btn:hover {
+  background: var(--color-emerald-50);
+  color: var(--color-emerald-600);
+}
+
+.movie-card {
+  flex: 0 0 calc(33.33% - .35rem);
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  scroll-snap-align: start;
+}
+
+#main {
+  max-width: 1500px;
+  padding: 1rem;
+  margin: auto;
+}
+
+.horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  margin-top: var(--space-2xs);
+  gap: .5rem;
 }
