@@ -16,14 +16,11 @@
 }
 
 .movie-card {
-  flex: 0 0 calc(33.33% - .35rem);
-  box-sizing: border-box;
-  padding: 20px;
+  height: 100px;
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   border-radius: 8px;
-  text-align: center;
-  scroll-snap-align: start;
+  box-sizing: border-box;
 }
 
 #main {
@@ -36,6 +33,23 @@
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  margin-top: var(--space-2xs);
+  margin-top: .5rem;
   gap: .5rem;
+}
+
+.horizontal-scroll .horizontal-scroll__item {
+  scroll-snap-align: start;
+  flex: 0 0 calc(50% - .25rem);
+}
+
+@media (min-width: 720px) {
+  .horizontal-scroll .horizontal-scroll__item {
+    flex: 0 0 calc(33.33% - .35rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .horizontal-scroll .horizontal-scroll__item {
+    flex: 0 0 calc(25% - .4rem);
+  }
 }
